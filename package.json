@@ -1,0 +1,16 @@
+{
+  "name": "supreme-octo-journey",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "repository": "https://github.com/jrodrigopuca/supreme-octo-journey.git",
+  "author": "jarp <jarp@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev":"nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "ws": "^7.4.4"
+  }
+}
