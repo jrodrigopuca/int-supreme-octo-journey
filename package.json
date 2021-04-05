@@ -6,11 +6,16 @@
   "author": "jarp <jarp@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev":"nodemon src/app.js"
+    "dev": "nodemon src/app.js",
+    "test": "mocha test/test.js"
   },
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.7",
     "ws": "^7.4.4"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2",
+    "supertest": "^6.1.3"
   }
 }
